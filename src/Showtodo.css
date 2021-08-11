@@ -1,0 +1,56 @@
+.showtodo ul {
+  list-style-type: none;
+}
+
+.todo_container {
+  border: 1px solid black;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.mainbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainbox h4 {
+  margin-left: 25px;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.mainbox input {
+  height: 30px;
+  width: 250px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit {
+  margin: 10px;
+  height: 40px;
+  width: 55px;
+  background-color: #208ce7;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.delete {
+  margin: 10px;
+  height: 40px;
+  width: 55px;
+  background-color: #e94644;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
